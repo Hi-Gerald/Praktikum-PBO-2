@@ -19,5 +19,6 @@ public class App {
         System.out.println("Hasil Casting usia = " + casting_usia);
         int casting_tinggi = (int) tinggi;
         System.out.println("Hasil Casting tinggi = " + casting_tinggi);
+        input.close();
     }
 }
